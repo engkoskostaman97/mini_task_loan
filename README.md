@@ -27,7 +27,6 @@
 ## limit methode POST
 <br/>
 {
-
 <br/>
   "consumer_id": 4 ,
 <br/>
@@ -36,4 +35,25 @@
   "amount": 300000
 <br/>
 }
+
+## Transaction methode POST
+<br/>
+{
+<br/>
+  "consumer_id": 3,
+<br/>
+  "contract_no": "12333456",
+<br/>
+  "otr": 300000000,
+<br/>
+  "admin_fee": 3000000,
+<br/>
+  "installment": 3000000,
+<br/>
+  "interest": 40,
+<br/>
+  "asset_name": "mobil"
+<br/>
+}
+
 
