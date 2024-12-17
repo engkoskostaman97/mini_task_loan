@@ -1,6 +1,6 @@
 ## Request API Document Postaman
 
-## http://localhost:7000/consumers
+## http://localhost:7000/consumers methode POST
 
 <br/>
 {
@@ -22,3 +22,18 @@
   "selfie_photo": "https://example.com/selfie.jpg"
  <br/>
 }
+
+
+## limit methode POST
+<br/>
+{
+
+<br/>
+  "consumer_id": 4 ,
+<br/>
+  "tenor": 1,
+<br/>
+  "amount": 300000
+<br/>
+}
+
